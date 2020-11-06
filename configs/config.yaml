@@ -1,0 +1,13 @@
+logging:
+  logfile: ""
+  level: "INFO"
+  logToStdout: true
+
+defaults:
+  port: 8600
+
+bootstrap:
+  node:
+    address: ""
+    port: 8600
+  datacenter: ""
