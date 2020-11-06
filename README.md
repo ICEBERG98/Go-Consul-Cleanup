@@ -1,4 +1,4 @@
-# go-consul-cleanup                                                 ![Go](https://github.com/Kashish-Soni/consul-cleanup/workflows/Go/badge.svg?branch=master)
+# go-consul-cleanup                                                 ![Go](https://github.com/iceberg98/go-consul-cleanup/workflows/Go/badge.svg?branch=master)
 ###  **Go Application for cleaning up Failing health checks and Redundant Services in Consul**
 
 I've Written this application to allow cleanup of Services with failing Healtcheks in consul. This application also
@@ -29,9 +29,9 @@ defaults:
 
 bootstrap:
   node:
-    address: "10.13.1.38"
-    port: 8600
-  datacenter: "evive_dev"
+    address: ""
+    port: 8400
+  datacenter: ""
 
 ```
 1. I have tried to keep only the necessary params in config
