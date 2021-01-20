@@ -2,7 +2,7 @@ package logging
 
 import (
 	"github.com/ICEBERG98/go-consul-cleanup/pkg/config"
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"io"
 	"os"
 )

@@ -1,12 +1,13 @@
 package client
 
 import (
-	"github.com/ICEBERG98/go-consul-cleanup/pkg/config"
-	log "github.com/Sirupsen/logrus"
-	"github.com/hashicorp/consul/api"
-	"github.com/hashicorp/go-cleanhttp"
 	"strconv"
 	"strings"
+
+	"github.com/ICEBERG98/go-consul-cleanup/pkg/config"
+	"github.com/hashicorp/consul/api"
+	"github.com/hashicorp/go-cleanhttp"
+	log "github.com/sirupsen/logrus"
 )
 
 var DefaultQueryOptions = api.QueryOptions{
