@@ -1,8 +1,8 @@
 package agent
 
 import (
-	"github.com/Sirupsen/logrus"
 	"github.com/hashicorp/consul/api"
+	"github.com/sirupsen/logrus"
 )
 
 func DeregisterServiceById(ServiceID string, agent *api.Agent) {

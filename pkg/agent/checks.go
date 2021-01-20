@@ -1,8 +1,8 @@
 package agent
 
 import (
-	log "github.com/Sirupsen/logrus"
 	"github.com/hashicorp/consul/api"
+	log "github.com/sirupsen/logrus"
 )
 
 func GetChecksForAgent(agent *api.Agent) map[string]*api.AgentCheck {

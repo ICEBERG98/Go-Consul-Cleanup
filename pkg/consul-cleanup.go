@@ -1,11 +1,12 @@
 package pkg
 
 import (
+	"strconv"
+
 	"github.com/ICEBERG98/go-consul-cleanup/pkg/agent"
 	"github.com/ICEBERG98/go-consul-cleanup/pkg/client"
-	log "github.com/Sirupsen/logrus"
 	"github.com/hashicorp/consul/api"
-	"strconv"
+	log "github.com/sirupsen/logrus"
 )
 
 func getFailingHealthCheckFromAgent(consulAgent *api.Agent) []*api.AgentCheck {
