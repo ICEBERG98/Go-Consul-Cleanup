@@ -1,4 +1,4 @@
-# go-consul-cleanup                                                 ![Go](https://github.com/iceberg98/go-consul-cleanup/workflows/Go/badge.svg?branch=master)
+# go-consul-cleanup                                                 ![Go](https://github.com/ICEBERG98/Go-Consul-Cleanup/workflows/Go/badge.svg?branch=main)
 ###  **Go Application for cleaning up Failing health checks and Redundant Services in Consul**
 
 I've Written this application to allow cleanup of Services with failing Healtcheks in consul. This application also
