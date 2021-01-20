@@ -3,9 +3,9 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/iceberg98/go-consul-cleanup/pkg"
-	"github.com/iceberg98/go-consul-cleanup/pkg/config"
-	"github.com/iceberg98/go-consul-cleanup/pkg/logging"
+	"github.com/ICEBERG98/go-consul-cleanup/pkg"
+	"github.com/ICEBERG98/go-consul-cleanup/pkg/config"
+	"github.com/ICEBERG98/go-consul-cleanup/pkg/logging"
 )
 
 func main() {
